@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title> User Registration </title>
+    </head>
+    <body>
+        <h1>User Registration Form</h1>
+        <p><a href="11dec2025index.html">← Back to Home</a></p>
+        <form method="get" action="11dec2025index.html">
+            <div>
+                <label for="usrname"> Username </label>
+                <input name="usrname" id="usrname" type="text" required placeholder="Enter Username">
+            </div>
+            <div>
+                <label for="passwd"> Password </label>
+                <input name="passwd" id="passwd" type="password" required placeholder="Enter Password">
+            </div>
+            <div>
+                <label for="dob"> Date of Birth </label>
+                <input name="dob" id="dob" type="date" min="01-01-2000" max="01-01-1900" required>
+            </div>
+            <div>
+                <h3> Gender </h3>
+                <input name="gender" id="gender_male" type="radio" required>
+                <label for="gender_male"> Male </label>
+                <br>
+                <input name="gender" id="gender_female" type="radio" required>
+                <label for="gender_female"> Female </label>
+                <br>
+                <input name="gender" id="gender_other" type="radio" required>
+                <label for="gender_other"> Other </label>
+            </div>
+            <div>
+                <h3> Contact Details </h3>
+                <label for="phno"> Mobile Number </label>
+                <input name="phno" id="phno" type="tel" required>
+                <br>
+                <label for="email"> Email </label>
+                <input name="email" id="email" type="email" required>
+            </div>
+            <div>
+                <h3> Food Preference </h3>
+                <input name="foodpref" id="foodpref_veg" type="checkbox">
+                <label for="foodpref_veg">Vegetarian</label>
+                <br>
+                <input name="foodpref" id="foodpref_nonveg" type="checkbox">
+                <label for="foodpref_nonveg">Non-Vegetarian</label>
+                <br>
+                <input name="foodpref" id="foodpref_jain" type="checkbox">
+                <label for="foodpref_jain">Jain Meals</label>
+            </div>
+            <div>
+                <h3> State </h3>
+                <select name="state">
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="desh">Himachal Pradesh</option>
+                    <option value="Jharkand">Jharkand</option>
+                </select>
+            </div>
+            <div>
+                <br>
+                <button type="submit"> Submit </button>
+                <button type="reset"> Reset </button>
+            </div>
+        </form>
+    </body>
+</html>
