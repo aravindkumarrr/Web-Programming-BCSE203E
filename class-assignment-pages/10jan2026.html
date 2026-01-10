@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>CSS Box Practice</title>
+        <style>
+            .box {
+                height: 45vh;
+                width: 50vw;
+                border: 10px solid white;
+            }
+
+            /* 2. Use Flexbox to align items horizontally */
+            .firstrow, .secondrow {
+                display: flex;
+                justify-content: center; /* Centers the row in the middle */
+            }
+
+            /* 3. Correct Selector Syntax: .classname */
+            .red { background-color: red; }
+            .orange { background-color: orange; }
+            .yellow { background-color: yellow; }
+            .magenta { background-color: magenta; }
+            .blue { background-color: blue; }
+            .green { background-color: green; }
+        </style>
+    </head>
+    <body>
+        <div class="firstrow">
+            <div class="box red"></div>
+            <div class="box orange"></div>
+            <div class="box yellow"></div>            
+        </div>
+        
+        <br> 
+        
+        <div class="secondrow">
+            <div class="box magenta"></div>
+            <div class="box blue"></div>
+            <div class="box green"></div>  
+        </div>
+    </body>
+</html>
